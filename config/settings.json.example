@@ -1,0 +1,45 @@
+{
+	"discord": {
+		"guild": ""
+	},
+
+	"commandPrefix": "!",
+
+	"allowed_roles": [
+		"Programmer",
+		"Modeler",
+		"Eventer",
+		"Builder",
+		"Audio",
+		"DLL/Game Injection",
+		"PC",
+		"Mac",
+		"Linux",
+		"Mentionable Programmer",
+		"Mentionable Modeler",
+		"Mentionable Eventer",
+		"Mentionable Builder",
+		"Mentionable Audio"
+	],
+
+	"channels": {
+		"commands": "",
+		"logs": ""
+	},
+
+	"moderationRoles": [
+		""
+	],
+
+	"muteRole": "",
+
+	"staffChannel": "",
+
+	"voiceCategory": "",
+
+	"staffWatchRole": "",
+
+	"debug": false,
+
+	"ownerID": ""
+}

@@ -1,0 +1,14 @@
+services:
+  bcc-discord-bot_node:
+    build: .
+    container_name: bcc-discord-bot
+    volumes:
+      #- ./src:/app/src
+      - ./config:/app/config
+    restart: always
+    secrets:
+      - token
+
+secrets:
+  token:
+    environment: TOKEN

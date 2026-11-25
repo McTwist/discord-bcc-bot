@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "bun --unhandled-rejections=strict --trace-deprecation src/main.ts"
+  },
+  "dependencies": {
+    "@types/bun": "^1.4.4",
+    "@types/markdown-escape": "^1.1.3",
+    "@types/sentencer": "^0.2.3",
+    "discord.js": "^14.28.1",
+    "markdown-escape": "^2.0.0",
+    "sentencer": "^0.2.1"
+  }
+}
